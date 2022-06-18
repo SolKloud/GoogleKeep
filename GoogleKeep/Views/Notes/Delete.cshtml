@@ -1,0 +1,13 @@
+﻿@model NotesModel
+
+<form method="post">
+	<label asp-for="Title">Add title:</label>
+	<input asp-for="Title" type="text" disabled />
+	<label asp-for="Content">Content</label>
+	<input asp-for="Content" type="text" disabled/>
+	<button type="submit">Delete</button>
+	<a asp-controller="Notes" asp-action="Index">Back</a>
+</form>
+
+
+
